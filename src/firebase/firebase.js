@@ -34,8 +34,8 @@ export const createUserProfile=async(userAuth, additionalData)=>{
       console.log(error.message)
     }
   }
-
   return userRef;
+  
 }
 
 //USE .doc  for CRUD methods, snapshoti representaju data
