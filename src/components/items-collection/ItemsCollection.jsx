@@ -21,7 +21,7 @@ import {addItem} from "../../redux/cart/cartActions"
 //                 <span className="name">{item.name}</span>
 //                 <span className="price">{item.price}</span>
 //             </div>
-//             <CustomButtton onClick={()=>this.handleClick(item)} inverted>Add to cart</CustomButtton>
+//             <CustomButtton handleClick={this.handleClick} item={item} inverted>Add to cart</CustomButtton>
 //         </div>
 //         )
 //     }

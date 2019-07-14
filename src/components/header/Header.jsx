@@ -6,6 +6,9 @@ import { Link ,NavLink} from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/4.4 crown.svg.svg";
 import {auth} from "../../firebase/firebase"
 import {connect} from "react-redux"
+import {createStructuredSelector} from "reselect"
+import {selectCartHidden} from "../../redux/cart/cartSelectors"
+import {selectCurrentUser} from "../../redux/user/userSelectors"
 
 const Header = ({currentUser,hidden}) => {
   return (
@@ -35,9 +38,9 @@ const Header = ({currentUser,hidden}) => {
   );
 };
 
-const mapsStateToProps=(state)=>({
-  currentUser:state.user.currentUser,
-  hidden:state.cart.hidden
+const mapsStateToProps=createStructuredSelector({
+  currentUser:selectCurrentUser,
+  hidden:selectCartHidden
 })
 
 export default connect(mapsStateToProps)(Header);
