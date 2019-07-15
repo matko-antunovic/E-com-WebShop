@@ -1,14 +1,19 @@
 import React from 'react'
 import "./Collection.scss"
-import ItemsCollection from "../../components/items-collection/ItemsCollection"
+import Item from "../../components/item/Item"
 import {connect} from "react-redux"
 import {selectCollection} from "../../redux/shop/shopSelectors"
 
 const Collection = ({collection}) => {
-    console.log(collection)
+    const{title,items}=collection;
     return (
-        <div className="Collection">
-            <h2>Collection PAGE</h2>
+        <div className="collection-page">
+            <h2 className="title">{title}</h2>
+            <div className="items">
+                {
+                    items.map(item=> <Item key={item.id} item={item}/>)
+                }
+            </div>
         </div>
     )
 }
