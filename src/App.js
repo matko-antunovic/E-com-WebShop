@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import {connect} from "react-redux"
 import {setCurrentUser} from "./redux/user/userActions"
 
@@ -14,7 +13,7 @@ import {auth, createUserProfile} from "./firebase/firebase"
 import {selectCurrentUser} from "./redux/user/userSelectors"
 import {createStructuredSelector} from "reselect"
 
-
+  
 class App extends React.Component{
 
   unsubscribeFromAuth=null;
