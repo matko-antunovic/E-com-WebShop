@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/E-com-WebShop/static/css/main.91aeb6fa.chunk.css",
+    "main.js": "/E-com-WebShop/static/js/main.4366ad0a.chunk.js",
+    "main.js.map": "/E-com-WebShop/static/js/main.4366ad0a.chunk.js.map",
+    "runtime~main.js": "/E-com-WebShop/static/js/runtime~main.c9b2d01e.js",
+    "runtime~main.js.map": "/E-com-WebShop/static/js/runtime~main.c9b2d01e.js.map",
+    "static/js/2.e103ea1b.chunk.js": "/E-com-WebShop/static/js/2.e103ea1b.chunk.js",
+    "static/js/2.e103ea1b.chunk.js.map": "/E-com-WebShop/static/js/2.e103ea1b.chunk.js.map",
+    "index.html": "/E-com-WebShop/index.html",
+    "precache-manifest.24040107e596921e0d839d19f973a14d.js": "/E-com-WebShop/precache-manifest.24040107e596921e0d839d19f973a14d.js",
+    "service-worker.js": "/E-com-WebShop/service-worker.js",
+    "static/css/main.91aeb6fa.chunk.css.map": "/E-com-WebShop/static/css/main.91aeb6fa.chunk.css.map",
+    "static/media/11.2 shopping-bag.svg.30f07071.svg": "/E-com-WebShop/static/media/11.2 shopping-bag.svg.30f07071.svg",
+    "static/media/4.4 crown.svg.ed28accb.svg": "/E-com-WebShop/static/media/4.4 crown.svg.ed28accb.svg"
+  }
+}
