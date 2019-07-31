@@ -32,9 +32,10 @@ export const Image = styled.div`
 export const CollectionFooterStyles = styled.div`
   width: 100%;
   height: 5%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
+  text-align:center;
+  font-size: 20px;
+  margin-top:5px;
+  font-weight: 600;
 `;
 
 export const CustomButtonStyles = styled(CustomButton)`
@@ -48,6 +49,7 @@ export const CustomButtonStyles = styled(CustomButton)`
 export const NameContainer = styled.span`
   width: 90%;
   margin-bottom: 15px;
+  margin-right:5px;
 `;
 
 export const PriceContainer = styled.span`

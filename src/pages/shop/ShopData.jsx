@@ -11,10 +11,23 @@ const shopData={
           price: 25
         },
         {
+          id: 51,
+          name: 'Black Bucket Hat',
+          imageUrl: 'https://lp.cosstores.com/app001prod?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B350%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&set=key%5Bresolve.quality%5D,value%5B90%5D&set=ImageVersion%5B201906271855%5D,source%5B01_0782335_002_4%5D,type%5BECOMLOOK%5D&call=url%5Bfile:/product/dynamic.chain%5D',
+          price: 25
+        },
+       
+        {
           id: 2,
           name: 'Blue Beanie',
           imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
           price: 18
+        },
+        {
+          id: 52,
+          name: 'Grey Hat',
+          imageUrl: ' https://cdn.shopify.com/s/files/1/0798/7641/products/image_eb670a7c-44ba-4044-8a83-3918dab3d6ed_590x.jpg?v=1550680003',
+          price: 35
         },
         {
           id: 3,
@@ -127,6 +140,12 @@ const shopData={
           price: 125
         },
         {
+          id: 108,
+          name: 'White Jacket',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/1090/7042/products/db7c6d13c85909ce200a72722bc1bf70_566x.progressive.jpg?v=1527181291',
+          price: 220
+        },
+        {
           id: 19,
           name: 'Blue Jean Jacket',
           imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
@@ -162,6 +181,12 @@ const shopData={
           name: 'Blue Tanktop',
           imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
           price: 25
+        },
+        {
+          id: 123,
+          name: 'Grey Dress',
+          imageUrl: 'https://i.ibb.co/1rHjczC/dress.jpg',
+          price: 65
         },
         {
           id: 24,
@@ -213,6 +238,13 @@ const shopData={
           price: 325
         },
         {
+          id: 130,
+          name: 'Polo Shirt',
+          imageUrl: 'https://i.ibb.co/VDhXHjT/classic-men-039-1.png',
+          price: 25
+        },
+        
+        {
           id: 31,
           name: 'Floral T-shirt',
           imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
@@ -235,6 +267,12 @@ const shopData={
           name: 'Jean Long Sleeve',
           imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
           price: 40
+        },
+        {
+          id: 230,
+          name: 'Polo Shirt',
+          imageUrl: 'https://i.ibb.co/wcQbyqj/classic-men-039.png',
+          price: 25
         },
         {
           id: 35,

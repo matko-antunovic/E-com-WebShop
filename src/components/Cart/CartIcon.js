@@ -11,7 +11,6 @@ const CartIcon = ({toggleCartHidden, itemCount}) => {
     
     return (
         <CartIconStyles onClick={toggleCartHidden}>
-            {/* <ShoppingIcon  className="shopping-icon"/> */}
             <ShoppingIconStyles><ShoppingIcon/></ShoppingIconStyles>
             <ItemCountStyles>{itemCount}</ItemCountStyles>
         </CartIconStyles>

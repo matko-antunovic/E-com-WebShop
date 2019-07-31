@@ -10,7 +10,7 @@ export const CartContainerStyles = styled.div`
   border: 1px solid black;
   background-color: white;
   top: 90px;
-  right: 40px;
+  right: 60px;
   z-index: 5;
 `;
 
